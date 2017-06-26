@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EntityFrameWorkTest1.Model { 
-    [Table("menu",Schema ="public")] // テーブルの名前を入力。
+    [Table("menu3",Schema ="public")] // テーブルの名前を入力。
     public class Menu
     {
         [Key] // 主キーを設定。
